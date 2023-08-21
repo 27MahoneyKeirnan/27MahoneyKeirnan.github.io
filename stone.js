@@ -6,18 +6,20 @@ function submitted(event) {
     const answers = {
         question1: document.querySelector('input[name="question1"]:checked').value
     }
-    display(answers)
+    display(answers);
 }
 
 function display(answers) {
-    const quizSection = document.getElementbyId("quiz-section");
+    const quizSection = document.getElementById("quiz-section");
     quizSection.innerHTML = "";
     const answerHeader = document.createElement('h1');
-    answerHeader.textContent = "your results are:";
+    answerHeader.textContent = "Your results are: ";
     quizSection.appendChild(answerHeader);
-    //answers.forEach((answer) => {
     const result = document.createElement('p');
-    result.textContent = "Thanks for responding!"
-        //result.textContent = answer;
+    if(answers.question1 === "yes") {
+        result.textContent = "Glad to hear it! :D";
+    } else if(answers.question1 === "no") {
+        result.textContent = "Aw, sorry to hear that :(";
+    }
     quizSection.appendChild(result);
 }

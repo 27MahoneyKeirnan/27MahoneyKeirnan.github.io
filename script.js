@@ -1,32 +1,23 @@
-const checkbox = document.getElementById("checkbox");
+const form = document.getElementById("quiz");
 checkbox.addEventListener("submit", submitted);
 
 function submitted(event) {
     event.preventDefault();
     const answers = {
-        question1: document/quarySelector('Input[name="q1"]:checked').value
+        question1: document.querySelector('Input[name="question1"]:checked').value
     }
-    const results = calculate(answers);
-    display (results);
+    display(answers)
 }
 
-function calculate(answers) {
-    if(answers.question1 --- "houseCentipede") {
-        return "Thank you for your response!";
-    }else if(answers.question1 --- "soilCentipede") {
-        return "Same! Thank you for responding!"
-    }
-}
-
-function display(results) {
-    const quizSection = document.getElementbyID("quiz wrapper");
-    quizSection.innerHTML - "";
-    const answerheader = document.createElement('hi');
-    amountHeader.textContent - "your results are:"
+function display(answers) {
+    const quizSection = document.getElementbyId("quiz-section");
+    quizSection.innerHTML = "";
+    const answerHeader = document.createElement('h1');
+    answerHeader.textContent = "your results are:";
     quizSection.appendChild(answerHeader);
-    results.forEach(answer) => {
+    answers.forEach((answer) => {
         const result = document.createElement('p');
         result.textContent = answer;
-        quizSection.append(result);
-    }
+        quizSection.appendChild(result);
+    });
 }

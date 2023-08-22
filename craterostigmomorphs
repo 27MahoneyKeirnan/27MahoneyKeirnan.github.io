@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Craterostigmomorpha</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="F A V I CO N.png" rel="shortcut icon" type="image/png" />
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href= "index.html">Home</a></li>
+                <li><a href= "stonecentipede.html">Lithobiomorpha</a></li>
+                <li><a href= "soilcentipede.html">Geophilamorpha</a></li>
+                <li><a href= "housecentipede.html">Scutigeromorpha</a></li>
+                <li><a href= "scolopendromorpha.html">Scolopendromorpha</a></li>
+                <li><a href= "craterostigmomorphs.html">Craterostigmomorpha - You are here</a></li>
+            </ul>
+        </header>
+        <p>Greetings! I hope you've had a zoinks-filled day!</p>
+        <h1>A glare or two at Craterostigmomorpha!</h1>
+        <p>"Craterostigmomorphs" [Read time: About 2 minutes]</p>
+    <img src = "https://th.bing.com/th/id/OIP.fgoCZAu8RCCLu3H0N1gsHgHaFj?pid=ImgDet&rs=1">
+            <h1>Above lies an image of the order known as Craterostigmomorpha."</h1>
+        <p>Craterostigmomorpha is the most geographically restricted and least diverse order of Chilopoda. It comprises just one genus,
+           one family, and two described species.
+        </p>
+
+        <h1>Growth:</h1>
+        <p>Females will lay around 44-77 eggs in a clutch inside a crevice of a damp log or in the soil. They will stop eating and
+           will instead coil themselves around the eggs. They will also "groom" the eggs by removing fungi. The hatchlings will be
+           born with 12 legs, adding the three others in a single molt. It it difficult to distinguish sex without examining their
+           reproductive biology.</p>
+        
+            <h1>Fast Facts:</h1>
+        <p>-They move surprisingly quickly on their 15 pairs of legs, with one pair of many-jointed antennae armed with
+            jawlike poison claws in front of the head.</p>
+        <p>-One species resides in Tasmania while the other dwells in New Zealand</p>
+        <p>-They can grow up to 50 millimeters in length</p>
+        <p>-They likely consume small soft-bodied arthropods and sometimes termites</p>
+        <p>-Greenish-brown in color, with three dark dorsal stripes and many striped legs</p>
+        
+            <h1>How do they hunt prey?</h1>
+        <p>In captivity, they have been seen using their poison claws to extract termites from crevices in wood before eating them.</p>
+         
+        <h1>Sources:</h1>
+        <p>See "Home"</p>
+    </body>
+</html>

@@ -24,8 +24,10 @@ function display(answers) {
         result.textContent = "Great! Thanks for sharing!";
     } else if(answers.question1 === "AllCentipedes") {
         result.textContent = "Super! Thank you for responding!";
-    } else if(answers.question1 === "OtherCentipede") {
+    } else if(answers.question1 === "ScolopCentipede") {
         result.textContent = "Awesome! Thanks for submitting!";
+    } else if(answers.question1 === "CraterCentipede") {
+        result.textContent = "Epic! Thank you for sharing!";
     }
     quizSection.appendChild(result);
 }

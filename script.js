@@ -28,6 +28,8 @@ function display(answers) {
         result.textContent = "Awesome! Thanks for submitting!";
     } else if(answers.question1 === "CraterCentipede") {
         result.textContent = "Epic! Thank you for sharing!";
+    } else if(answers.question1 === "NoCentipedes") {
+        result.textContent = "Why? That's goofy.";
     }
     quizSection.appendChild(result);
 }

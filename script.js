@@ -29,7 +29,7 @@ function display(answers) {
     } else if(answers.question1 === "CraterCentipede") {
         result.textContent = "Epic! Thank you for sharing!";
     } else if(answers.question1 === "NoCentipedes") {
-        result.textContent = "Why? That's goofy.";
+        result.textContent = "Dang okay.";
     }
     quizSection.appendChild(result);
 }
